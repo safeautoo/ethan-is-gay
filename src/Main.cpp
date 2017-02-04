@@ -19,6 +19,31 @@ int main() {
   cin.ignore();
   cin.get();
 
+  cout << "Now that ur " << input << " gay, how would you like to leave this world?" << endl;
+
+  cin.get();
+
+  cout << "1. Meme overdose\n"
+          "2. Spare your own life and end someone else's career." << endl;
+
+  cin >> input;
+
+  if (input == "1") {
+    cout << "lol ur family gay" << endl;
+
+    cin.ignore();
+    cin.get();
+
+    return 0;
+  } else if (input == "2") {
+    cout << "lol ur family still gay, scumbag" << endl;
+
+    cin.ignore();
+    cin.get();
+
+    return 0;
+  }
+
   return 0;
 
 }
