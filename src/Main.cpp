@@ -16,6 +16,9 @@ int main() {
 
   endCareer(input);
 
+  cin.ignore();
+  cin.get();
+
   return 0;
 
 }
