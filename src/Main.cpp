@@ -2,9 +2,13 @@
 
 using namespace std;
 
+int endCareer(string lovedOne) {
+  cout << "ur " << lovedOne << " gay" << endl;
+}
+
 int main() {
 
-  cout << "ur mom gay" << endl;
+  endCareer("brother");
 
   return 0;
 
